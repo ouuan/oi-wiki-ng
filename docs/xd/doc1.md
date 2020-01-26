@@ -21,6 +21,9 @@ sidebar_label: Style Guide
 
 Telegram 群组链接为 [@OIwiki](https://t.me/OIwiki) ，QQ 群号码为 [ `588793226` ](https://jq.qq.com/?_wv=1027&k=5EfkM6K) ，欢迎加入。
 
+$a_i$
+
+$\sqrt{2}$$
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 

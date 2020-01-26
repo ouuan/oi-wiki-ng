@@ -81,6 +81,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
+          
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -88,4 +89,8 @@ module.exports = {
       },
     ],
   ],
+  scripts: [
+    "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML",
+    "/js/mathjax.js"
+  ]
 };
