@@ -25,10 +25,17 @@ module.exports = {
               // These files will not be copied
               ignoreFileExtensions: ['.md']
             }
+          },
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+              strict: `ignore`
+            }
           }
         ],
-        remarkPlugins: [require("remark-math"), require("remark-details")],
-        rehypePlugins: [require('rehype-mathjax'), require('rehype-details')],
+        remarkPlugins: [require("remark-details")],
+        rehypePlugins: [require('rehype-details')],
         extensions: [".mdx", ".md"]
       }
     },
